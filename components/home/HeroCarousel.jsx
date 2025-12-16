@@ -4,6 +4,9 @@ import Image from "next/image";
 import { useMemo, useState } from "react";
 
 export default function HeroCarousel() {
+  {
+    /*  TODO: update to actual client photos*/
+  }
   const slides = useMemo(
     () => [
       {
@@ -39,14 +42,11 @@ export default function HeroCarousel() {
         sizes="100vw"
       />
 
-      {/* Optional: subtle dark overlay to match “hero” look */}
-      <div className="absolute inset-0 bg-black/10" />
-
       {/* Left arrow */}
       <button
         onClick={prev}
         aria-label="Previous slide"
-        className="absolute left-6 top-1/2 -translate-y-1/2 rounded-full bg-white/80 px-4 py-3 text-xl shadow hover:bg-white"
+        className="absolute left-6 top-1/2 -translate-y-1/2 rounded-full bg-white/80 px-4 py-3 text-3xl text-zinc-900 font-bold shadow hover:bg-white"
       >
         ‹
       </button>
@@ -55,7 +55,7 @@ export default function HeroCarousel() {
       <button
         onClick={next}
         aria-label="Next slide"
-        className="absolute right-6 top-1/2 -translate-y-1/2 rounded-full bg-white/80 px-4 py-3 text-xl shadow hover:bg-white"
+        className="absolute right-6 top-1/2 -translate-y-1/2 rounded-full bg-white/80 px-4 py-3 text-3xl text-zinc-900 font-bold shadow hover:bg-white"
       >
         ›
       </button>

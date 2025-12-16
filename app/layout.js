@@ -22,11 +22,15 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
+      <body className="min-h-screen flex flex-col">
         <Header />
-        <main className="min-h-screen">{children}</main>
+        <main
+          className="overflow-hidden"
+          style={{ height: "calc(100vh - var(--header-h) - var(--footer-h))" }}
+        >
+          {children}
+        </main>
+        <Footer />
       </body>
     </html>
   );
