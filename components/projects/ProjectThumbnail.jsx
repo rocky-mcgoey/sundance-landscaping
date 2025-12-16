@@ -4,7 +4,7 @@ import Image from "next/image";
 export default function ProjectThumb({ project }) {
   return (
     <Link href={`/projects/${project.slug}`} className="block">
-      <div className="w-[260px]">
+      <div className="w-full">
         <div className="relative h-[135px] w-full overflow-hidden bg-black/30 ring-1 ring-white/10">
           <Image
             src={project.coverImage}

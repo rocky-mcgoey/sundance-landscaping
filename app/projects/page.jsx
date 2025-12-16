@@ -6,7 +6,10 @@ export default function ProjectsPage() {
   return (
     <BackgroundShell backgroundSrc="/images/background/Landscape-1.jpg">
       <div className="mx-auto max-w-6xl px-6 py-10">
-        <ProjectsGrid projects={projects} />
+        {/* Scrollable thumbnails area */}
+        <div className="h-[calc(100vh-160px)] overflow-y-auto pr-2">
+          <ProjectsGrid projects={projects} />
+        </div>
       </div>
     </BackgroundShell>
   );

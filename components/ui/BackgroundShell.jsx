@@ -1,6 +1,7 @@
 import Image from "next/image";
 
 export default function BackgroundShell({
+  // TODO: Update photo to a client photo
   backgroundSrc = "/images/background/Landscape-1.jpg",
   children,
 }) {
