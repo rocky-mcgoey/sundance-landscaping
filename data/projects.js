@@ -7,12 +7,8 @@ export const projects = [
     subtitle: "Languile Residence",
     coverImage: "/images/projects/Landscape-2.jpg",
     gallery: [
-      "/images/projects/languile/1.jpg",
-      "/images/projects/languile/2.jpg",
-      "/images/projects/languile/3.jpg",
-      "/images/projects/languile/4.jpg",
-      "/images/projects/languile/5.jpg",
-      "/images/projects/languile/6.jpg",
+      "/images/projects/languile-residence/1.png",
+      "/images/projects/languile-residence/2.png",
     ],
   },
   {
@@ -21,12 +17,8 @@ export const projects = [
     subtitle: "King Residence",
     coverImage: "/images/projects/Landscape-2.jpg",
     gallery: [
-      "/images/projects/languile/1.jpg",
-      "/images/projects/languile/2.jpg",
-      "/images/projects/languile/3.jpg",
-      "/images/projects/languile/4.jpg",
-      "/images/projects/languile/5.jpg",
-      "/images/projects/languile/6.jpg",
+      "/images/projects/king-residence/1.png",
+      "/images/projects/king-residence/2.png",
     ],
   },
   {
@@ -35,9 +27,8 @@ export const projects = [
     subtitle: "Riddell Residence",
     coverImage: "/images/projects/Landscape-1.jpg",
     gallery: [
-      "/images/projects/springbank-2008/1.jpg",
-      "/images/projects/springbank-2008/2.jpg",
-      "/images/projects/springbank-2008/3.jpg",
+      "/images/projects/riddell-residence/1.png",
+      "/images/projects/riddell-residence/2.png",
     ],
   },
   {
@@ -46,9 +37,8 @@ export const projects = [
     subtitle: "Bratten Residence",
     coverImage: "/images/projects/Landscape-1.jpg",
     gallery: [
-      "/images/projects/springbank-2008/1.jpg",
-      "/images/projects/springbank-2008/2.jpg",
-      "/images/projects/springbank-2008/3.jpg",
+      "/images/projects/bratten-residence/1.png",
+      "/images/projects/bratten-residence/2.png",
     ],
   },
   {
@@ -57,9 +47,8 @@ export const projects = [
     subtitle: "Salamon Residence",
     coverImage: "/images/projects/Landscape-1.jpg",
     gallery: [
-      "/images/projects/springbank-2008/1.jpg",
-      "/images/projects/springbank-2008/2.jpg",
-      "/images/projects/springbank-2008/3.jpg",
+      "/images/projects/salamon-residence/1.png",
+      "/images/projects/salamon-residence/2.png",
     ],
   },
   {
