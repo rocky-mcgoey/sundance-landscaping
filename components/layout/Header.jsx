@@ -20,7 +20,7 @@ export default function Header() {
         <Link href="/" className="absolute left-6 top-1/2 -translate-y-1/2">
           <div className="relative h-[56px] w-[180px]">
             <Image
-              src="/public/images/logo/Sundance-logo.jpg"
+              src="/images/logo/Sundance-logo.jpg"
               alt="Sundance Landscaping"
               fill
               priority
