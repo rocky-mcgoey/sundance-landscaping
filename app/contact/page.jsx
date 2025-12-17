@@ -5,8 +5,8 @@ const ADDRESS = "245188 Range Road 31A, Rocky View County, Alberta";
 export default function ContactPage() {
   return (
     <BackgroundShell backgroundSrc="/images/background/Landscape-1.jpg">
-      <div className="h-[calc(100vh-88px)] overflow-y-auto">
-        <div className="mx-auto w-full max-w-7xl px-4 py-10 md:py-14 pb-28">
+      <div className="fixed left-0 right-0 top-[88px] bottom-[64px] overflow-y-auto">
+        <div className="mx-auto w-full max-w-7xl px-4 py-10 md:py-14 pb-24">
           <div className="rounded-2xl bg-black/45 p-6 sm:p-10 lg:p-12 ring-1 ring-white/10 backdrop-blur-sm">
             <h1 className="text-3xl font-bold tracking-tight text-white">
               Contact
