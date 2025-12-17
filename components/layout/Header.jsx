@@ -22,7 +22,8 @@ export default function Header() {
             <Image
               src="/images/logo/sundance-logo.jpg"
               alt="Sundance Landscaping"
-              fill
+              width={180}
+              height={56}
               priority
               className="object-contain"
             />
